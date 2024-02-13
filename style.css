@@ -1,0 +1,26 @@
+body{
+    font-family: "Roboto",sans-serif;
+}
+.header{
+    background-color: #1F2937;
+}
+.header .header-logo{
+    color:#F9FAF8;
+    font-size: 24px;
+}
+.header .link{
+    font-size: 18px ;
+    color: #e5e7eb;
+}
+.main .container1{
+    background-color: #1F2937;
+
+}
+.main .container1 h1{
+    font-size:48px ;
+    color: #F9FAF8;
+}
+.main .container1 p{
+    color: #e5e7eb;
+    font-size:18px ;
+}
