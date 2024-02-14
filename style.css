@@ -1,8 +1,24 @@
 body{
     font-family: "Roboto",sans-serif;
+    margin: 0 auto;
 }
 .header{
+    margin: 0;
     background-color: #1F2937;
+    gap:10px;
+    padding-left: 70px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+}
+.header nav ul{
+    display: flex;
+    gap: 30px;
+}
+.header li{
+    list-style: none;
 }
 .header .header-logo{
     color:#F9FAF8;
@@ -11,16 +27,79 @@ body{
 .header .link{
     font-size: 18px ;
     color: #e5e7eb;
+    
+}
+.main{
 }
 .main .container1{
     background-color: #1F2937;
-
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 20px;
+   
 }
 .main .container1 h1{
     font-size:48px ;
     color: #F9FAF8;
+    font-style: bold;
+    font-weight: bolder;
 }
 .main .container1 p{
     color: #e5e7eb;
     font-size:18px ;
+}
+.button-main{
+    background-color: #3882f6;
+    color: #F9FAF8;
+}
+.container2 h2{
+    font-size:36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.container2 .card-border{
+    border:5px solid #3882f6;
+    padding: 10px;
+    border-radius: 5px;
+}
+.container2 p{
+    font-size: 18px;
+    color: #1F2937;
+}
+.container3{
+    background-color: #E5E7EB;
+}
+.container3 p{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+.container3 span{
+    font-size: 26px;
+    color: #1F2937;
+    font-style: bold;
+    font-weight: bolder;
+}
+.container4 h2{
+    color:  #F9FAF8;
+    font-size: 24px;
+}
+.container4 p{
+    color: #E5E7EB;
+}
+.container4 .blue-box{
+    background-color: #3882f6;
+}
+.container4 .button-main-bb{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+}
+.footer{
+    background-color: #1F2937;
+    color: #e5e7eb;
+    font-size: 18px;
 }
