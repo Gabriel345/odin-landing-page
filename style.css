@@ -63,7 +63,8 @@ body{
     border-radius: 10px;
     font-size: 18px;
 }
-.container2 h2{
+
+.container2-texto h2{
     font-size:36px;
     font-weight: bolder;
     color: #1F2937;
@@ -74,17 +75,23 @@ body{
     height: 20vh;
     border:5px solid #3882f6;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 15px;
     margin: 10px;
 
 }
 .row{
+    width: 62vw;
     display: flex;
+    padding: 1%;
+    bottom: 10px;
+    margin: auto;
 }
 .container2 p{
     display: flex;
     font-size: 18px;
     color: #1F2937;
+    text-align: center;
+    margin: 0 33px 0px 0;
 }
 .container3{
     background-color: #E5E7EB;
