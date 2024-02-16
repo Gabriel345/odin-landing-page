@@ -63,6 +63,9 @@ body{
     border-radius: 10px;
     font-size: 18px;
 }
+.container2{
+    margin: 8%;
+}
 
 .container2-texto h2{
     font-size:36px;
@@ -95,6 +98,7 @@ body{
 }
 .container3{
     background-color: #E5E7EB;
+    padding: 5% 20% 7% 20%;
 }
 .container3 p{
     font-size: 36px;
@@ -107,6 +111,12 @@ body{
     color: #1F2937;
     font-style: bold;
     font-weight: bolder;
+    position: absolute;
+    right: 26%;
+    top: 215%;
+}
+.container4{
+     margin:7% 1% 7% 1%;
 }
 .container4 h2{
     color:  #F9FAF8;
@@ -117,8 +127,20 @@ body{
 }
 .container4 .blue-box{
     background-color: #3882f6;
+    padding:2% 4% 3% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    height: 12vh;
+    margin: auto;
+    border-radius: 10px;
+    gap: 33%;
 }
 .container4 .button-main-bb{
+    width: 10vw;
+    height: 6vh;
+    font-size: 18px;
     background-color: #3882f6;
     color: #F9FAF8;
     border: 2px solid #F9FAF8;
